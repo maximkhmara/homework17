@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<main class="main">
+			<div class="shop-product">
+				<div class="shop-product-image">
+					<img src="/img/1.jpg" alt="i" />
+				</div>
+				<div class="shop-product-rigth">
+					<div class="shop-product-name">MacBook Pro 16″ M3 Pro</div>
+					<div class="shop-product-buy">buy</div>
+				</div>
+			</div>
+			<form action="" class="buy-form">
+				<div class="buy-form-input field-wpapper">
+					<input
+						class="form-field user-name-check"
+						type="text"
+						placeholder="ПІБ"
+						name="username" />
+					<div class="name-error-text">Введіть три слова з великої букви</div>
+				</div>
+				<div class="buy-form-input field-wpapper">
+					<input
+						class="form-field user-phone-check"
+						type="text"
+						placeholder="Phone"
+						name="phone" />
+					<div class="phone-error-text">Введіть номер телефону коректно</div>
+				</div>
+				<div class="buy-form-input field-wpapper">
+					<input
+						class="form-field user-email-check"
+						type="text"
+						placeholder="Email"
+						name="email" />
+					<div class="email-error-text">Введіть email коректно</div>
+				</div>
+				<button class="form-submit-btn disable" type="submit">
+					Підтвердити замовлення
+				</button>
+			</form>
+			<div class="order">
+				<div class="order-title">Вітаємо ваше замовлення оформлене:</div>
+				<div class="order-content"></div>
+			</div>
+		</main>
+	</body>
+	<script src="./main.js"></script>
+</html>
